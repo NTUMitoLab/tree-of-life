@@ -2,7 +2,7 @@
 
 ## Family of Hominidae
 
-[Wikipedia Source](https://en.wikipedia.org/wiki/Hominidae)
+[WikiRef](https://en.wikipedia.org/wiki/Hominidae)
 
 1. Homo sapiens (humans)
 2. Pan paniscus (bonobos)
@@ -10,18 +10,98 @@
 4. Gorilla beringei (eastern gorillas)
 5. Gorilla gorilla (western gorillas)
 
-## Ribosomal RNA sequences
+## Analyzing ribosomal RNA sequences
 
 ### ARB project
 
 [Website](https://www.arb-silva.de/)
 
-RAM consumption exploded while loading the big database XD.
+RAM consumption exploded (>20GB) while loading the big database XD.
 
-## Protein sequences
+## Analyzing protein sequences
 
-### Tools
+### Online tools
 
 1. [Phylogeny.fr](http://www.phylogeny.fr/). For the Non-Specialist.
-2. 
-3. 
+    - [PMC](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2447785/)
+    - [PMC](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2821324/)
+2. [NCBI gene database](https://www.ncbi.nlm.nih.gov/gene?Db=gene)
+3. [Uniprot](https://www.uniprot.org)
+
+### Myoglobin
+
+[WikiRef](https://en.wikipedia.org/wiki/Myoglobin)
+
+FASTA sequences:
+
+```
+>sp|P02147|MYG_GORBE_Myoglobin_OS=Gorilla_gorilla_beringei_OX=499232_GN=MB_PE=1
+MGLSDGEWQLVLNVWGKVEADISGHGQEVLIRLFKGHPETLEKFDKFKHLKSEDEMKASEDLKKHGATVLTALGGILKKK
+GHHEAEIKPLAQSHATKHKIPVKYLEFISECIIQVLQSKHPGDFGADAQGAMNKALELFRKDMASNYKELGFQG
+
+>sp|P02144|MYG_HUMAN_Myoglobin_OS=Homo_sapiens_OX=9606_GN=MB_PE=1_SV=2
+MGLSDGEWQLVLNVWGKVEADIPGHGQEVLIRLFKGHPETLEKFDKFKHLKSEDEMKASEDLKKHGATVLTALGGILKKK
+GHHEAEIKPLAQSHATKHKIPVKYLEFISECIIQVLQSKHPGDFGADAQGAMNKALELFRKDMASNYKELGFQG
+
+>tr|A0A2R9BL13|A0A2R9BL13_PANPA_Myoglobin_OS=Pan_paniscus_OX=9597_GN=MB_PE=4_SV=
+MGLSDGEWQLVLNVWGKVEADIPGHGQEVLIRLFKGHPETLEKFDKFKHLKSEDEMKASEDLKKHGATVLTALGGILKKK
+GHHEAEIKPLAQSHATKHKIPVKYLEFISECIIQVLHSKHPGDFGADAQGAMNKALELFRKDMASNYKELGFQG
+
+>sp|P02145|MYG_PANTR_Myoglobin_OS=Pan_troglodytes_OX=9598_GN=MB_PE=1_SV=2
+MGLSDGEWQLVLNVWGKVEADIPGHGQEVLIRLFKGHPETLEKFDKFKHLKSEDEMKASEDLKKHGATVLTALGGILKKK
+GHHEAEIKPLAQSHATKHKIPVKYLEFISECIIQVLHSKHPGDFGADAQGAMNKALELFRKDMASNYKELGFQG
+
+>tr|G3R764|G3R764_GORGO_Myoglobin_OS=Gorilla_gorilla_gorilla_OX=9595_GN=MB_PE=3
+MGLSDGEWQLVLNVWGKVEADISGHGQEVLIRLFKGHPETLEKFDKFKHLKSEDEMKASEDLKKHGATVLTALGGILKKK
+GHHEAEIKPLAQSHATKHKIPVKYLEFISECIIQVLQSKHPGDFGADAQGAMNKALELFRKDMASNYKELGFQG
+```
+
+Alignment inputs:
+
+```
+ 5 154
+tr|A0A2R9B MGLSDGEWQL VLNVWGKVEA DIPGHGQEVL IRLFKGHPET LEKFDKFKHL
+sp|P02145| MGLSDGEWQL VLNVWGKVEA DIPGHGQEVL IRLFKGHPET LEKFDKFKHL
+sp|P02147| MGLSDGEWQL VLNVWGKVEA DISGHGQEVL IRLFKGHPET LEKFDKFKHL
+tr|G3R764| MGLSDGEWQL VLNVWGKVEA DISGHGQEVL IRLFKGHPET LEKFDKFKHL
+sp|P02144| MGLSDGEWQL VLNVWGKVEA DIPGHGQEVL IRLFKGHPET LEKFDKFKHL
+
+           KSEDEMKASE DLKKHGATVL TALGGILKKK GHHEAEIKPL AQSHATKHKI
+           KSEDEMKASE DLKKHGATVL TALGGILKKK GHHEAEIKPL AQSHATKHKI
+           KSEDEMKASE DLKKHGATVL TALGGILKKK GHHEAEIKPL AQSHATKHKI
+           KSEDEMKASE DLKKHGATVL TALGGILKKK GHHEAEIKPL AQSHATKHKI
+           KSEDEMKASE DLKKHGATVL TALGGILKKK GHHEAEIKPL AQSHATKHKI
+
+           PVKYLEFISE CIIQVLHSKH PGDFGADAQG AMNKALELFR KDMASNYKEL
+           PVKYLEFISE CIIQVLHSKH PGDFGADAQG AMNKALELFR KDMASNYKEL
+           PVKYLEFISE CIIQVLQSKH PGDFGADAQG AMNKALELFR KDMASNYKEL
+           PVKYLEFISE CIIQVLQSKH PGDFGADAQG AMNKALELFR KDMASNYKEL
+           PVKYLEFISE CIIQVLQSKH PGDFGADAQG AMNKALELFR KDMASNYKEL
+
+           GFQG
+           GFQG
+           GFQG
+           GFQG
+           GFQG
+
+```
+
+Phylogeny results: Similiar to the tree that wikipedia presented. But two types of gorillas are of the same sequence and not separated. Same for the chimps.
+
+```
+                                                                                                    ------0.002----
+ 
+                                        +tr_A0A2R9BL13_A0A2R9BL13_PANPA_Myoglobin_OS=Pan_paniscus_OX=9597
+ +--------------------------------------+
+ |                                      |
+ |                                      +sp_P02145_MYG_PANTR_Myoglobin_OS=Pan_troglodytes_OX=9598_GN=MB_P
+ |
+ |       +sp_P02144_MYG_HUMAN_Myoglobin_OS=Homo_sapiens_OX=9606_GN=MB_PE=1
+ |       |
+ |       |
+ +-------+                                             +sp_P02147_MYG_GORBE_Myoglobin_OS=Gorilla_gorilla_beringei_OX=499
+         |                                             |
+         +---------------------------------------------+
+                                                       +tr_G3R764_G3R764_GORGO_Myoglobin_OS=Gorilla_gorilla_gorilla_OX=9
+```
+
