@@ -5,7 +5,7 @@
 Uniprot:
 Core subunit of the mitochondrial membrane respiratory chain NADH dehydrogenase (Complex I) that is believed to belong to the minimal assembly required for catalysis. Complex I functions in the transfer of electrons from NADH to the respiratory chain. The immediate electron acceptor for the enzyme is believed to be ubiquinone.
 
-FASTA:
+FASTA
 
 ```
 >sp|P03886|NU1M_HUMAN NADH-ubiquinone oxidoreductase chain 1 OS=Homo sapiens OX=9606 GN=MT-ND1 PE=1 SV=1
@@ -32,13 +32,6 @@ LAMMWFISTLAETNRTPFDLTEGESELVSGFNIEYAAGPFALFFMAEYMNIIMMNTLTAT
 IFLGTTYNTHSPELYTTYFVTKALLLTSLFLWIRTTYPRFRYDQLMHLLWKNFLPLTLAS
 LMWYISMPTTISSIPPQT
 
->tr|A0A075DAE0|A0A075DAE0_GORBE NADH-ubiquinone oxidoreductase chain 1 OS=Gorilla beringei graueri OX=46359 GN=ND1 PE=3 SV=1
-MPMANLLLLIVPILIAMAFLMLTERKILGYMQLRKGPNVVGPYGLLQPFADAMKLFTKEP
-LKPSTSTITLYITAPTLALTIALLLWTPLPMPNPLVNLNLGLLFILATSSLAVYSILWSG
-WASNSNYALIGALRAVAQTISYEVTLAIILLSTLLMSGSFNLSTLIMTQEHLWLLLPTWP
-LAMMWFTSTLAETNRTPFDLAEGESELVSGFNIEYAAGPFALFFMAEYMNIIMMNALTTM
-IFLGTTYNAHSPELYTVCFITKTLLLTSLFLWIRTAYPRFRYDQLMHLLWKNFLPLTLAL
-LMWHISMPTTISSIPPQT
 
 >sp|Q9T9Z0|NU1M_GORGO NADH-ubiquinone oxidoreductase chain 1 OS=Gorilla gorilla gorilla OX=9595 GN=MT-ND1 PE=3 SV=1
 MSMANLLLLIVPILIAMAFLMLTERKILGYMQLRKGPNVVGPYGLLQPFADAMKLFTKEP
@@ -49,21 +42,8 @@ IFLGTTYNAHSPELYTVCFITKTLLLTSLFLWIRTAYPRFRYDQLMHLLWKNFLPLTLAL
 LMWYISMPTTISSIPPQT
 ```
 
-Result:
+Results
 
 ```
-                                                                                                --------0.01-------
- 
-                                      +-----------sp_Q9T9W3_NU1M_PANTR_NADH-ubiquinone_oxidoreductase_chain_1_OS=P
- +------------------------------------+
- |                                    |
- |                                    +-----------------tr_E0XI82_E0XI82_PANPA_NADH-ubiquinone_oxidoreductase_chain_1_Fr
- |
- |        +----------------------------------------sp_P03886_NU1M_HUMAN_NADH-ubiquinone_oxidoreductase_chain_1_OS=H
- |        |
- |        |
- +--------+                           +-----------------tr_A0A075DAE0_A0A075DAE0_GORBE_NADH-ubiquinone_oxidoreductase_ch
-          |                           |
-          +---------------------------+
-                                      +-----------------sp_Q9T9Z0_NU1M_GORGO_NADH-ubiquinone_oxidoreductase_chain_1_OS=G
+
 ```

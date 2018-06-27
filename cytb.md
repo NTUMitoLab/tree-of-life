@@ -2,9 +2,7 @@
 
 [Wikipedia](https://en.wikipedia.org/wiki/Cytochrome_b)
 
-## FASTA sequences: 
-
-*from Uniprot*
+FASTA
 
 ```
 >sp|Q35614|CYB_PONPY Cytochrome b OS=Pongo pygmaeus OX=9600 GN=MT-CYB PE=3 SV=2
@@ -59,7 +57,7 @@ TILFLMPITSLIENKMLKWT
 
 ```
 
-## Results
+Results
 
 *from http://www.phylogeny.fr/*
 
