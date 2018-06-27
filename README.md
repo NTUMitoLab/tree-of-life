@@ -1,4 +1,4 @@
-# Sequences of Hominidae(大猿)
+# Sequences of Hominidae (大猿)
 
 ## Family of Hominidae
 
@@ -13,6 +13,7 @@
 7. Pongo tapanuliensis (Tapanuli orangutan)
 8. Pongo abelii (Sumatran orangutan)
 
+We choose 1, 2, 3, 5, and 6 since the data are of better qualities
 Others are extinct.
 
 ## Analyzing ribosomal RNA sequences (epic fail!)
