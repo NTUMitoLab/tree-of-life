@@ -9,6 +9,9 @@
 3. Pan troglodytes (chimpanzees)
 4. Gorilla beringei (eastern gorillas)
 5. Gorilla gorilla (western gorillas)
+6. Pongo pygmaeus (Bornean orangutan)
+7. Pongo tapanuliensis (Tapanuli orangutan)
+8. Pongo abelii (Sumatran orangutan)
 
 Others are extinct.
 
