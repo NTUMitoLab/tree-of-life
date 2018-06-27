@@ -2,7 +2,7 @@
 
 [Wikipedia](https://en.wikipedia.org/wiki/Cytochrome_c_oxidase_subunit_II)
 
-gorilla beringei: UniProtKB - Q37472 (COX2_GORBE)
+FASTA
 
 ```
 >sp|Q37605|COX2_PONPY Cytochrome c oxidase subunit 2 OS=Pongo pygmaeus OX=9600 GN=MT-CO2 PE=3 SV=1
@@ -36,7 +36,7 @@ YMLPPLFLEPGDLRLLDVDNRLVLPVEAPVRMMITSQDVLHSWAVPTLGLKTDAIPGRLN
 QTTFTATRPGVYYGQCSEICGANHSFMPIVLELIPLKIFEMGPVFTL
 ```
 
-Results:
+Results
 
 ```
 
