@@ -5,11 +5,11 @@
 gorilla beringei: UniProtKB - Q37472 (COX2_GORBE)
 
 ```
->sp|Q37472|COX2_GORBE Cytochrome c oxidase subunit 2 OS=Gorilla gorilla beringei OX=499232 GN=MT-CO2 PE=3 SV=1
-MAHAAQVGLQDATSPIMEELIIFHDHALMIIFLICFLVLYALFLTLTTKLTSTNISDAQE
-METVWTILPAIILVLIALPSLRILYMTDEINDPSFTIKSIGHQWYWTYEYTDYGGLIFNS
-YMLPPLFLEPGDLRLLDVDNRVVLPVEAPVRMMITSQDVLHSWAVPTLGLKTDAIPGRLN
-QTTFTATRPGLYYGQCSEICGANHSFMPIVLELIPLKIFEMGPVFTL
+>sp|Q37605|COX2_PONPY Cytochrome c oxidase subunit 2 OS=Pongo pygmaeus OX=9600 GN=MT-CO2 PE=3 SV=1
+MAHRAQVGLQDATSPIMEELVIFHDHALMIIFLICFLVLYALFLTLTTKLTNTNISDAQE
+METIWTTLPAIILILIALPSLRILYLTDEINDPSFTIKSIGHQWYWTYEYTDYGGLIFNS
+YMLPPLFLEPGDLRLLDVDNRVVLPVEAPVRMMITSQDVLHSWTVPSLGLKTDAIPGRLN
+QTTFTATRPGVYYGQCSEICGANHSFMPIVLELIPLKIFEMGPVFAL
 
 >sp|P00403|COX2_HUMAN Cytochrome c oxidase subunit 2 OS=Homo sapiens OX=9606 GN=MT-CO2 PE=1 SV=1
 MAHAAQVGLQDATSPIMEELITFHDHALMIIFLICFLVLYALFLTLTTKLTNTNISDAQE
@@ -39,18 +39,5 @@ QTTFTATRPGVYYGQCSEICGANHSFMPIVLELIPLKIFEMGPVFTL
 Results:
 
 ```
-                                                                                                     -----0.005----
- 
-                   +------------------------------------sp_P26456_COX2_GORGO_Cytochrome_c_oxidase_subunit_2_OS=Gorilla_g
- +-----------------+
- |                 |
- |                 +-------------sp_Q37472_COX2_GORBE_Cytochrome_c_oxidase_subunit_2_OS=Gorilla_g
- |
- |     +------------------------------------------------sp_P00403_COX2_HUMAN_Cytochrome_c_oxidase_subunit_2_OS=Homo_sapi
- |     |
- |     |
- +-----+            +------------sp_P26457_COX2_PANPA_Cytochrome_c_oxidase_subunit_2_OS=Pan_panis
-       |            |
-       +------------+
-                    +sp_P50690_COX2_PANTR_Cytochrome_c_oxidase_subunit_2_OS=Pan_trogl
+
 ```
