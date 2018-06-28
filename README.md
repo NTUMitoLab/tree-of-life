@@ -48,3 +48,14 @@ Go to `Phylogeny analysis` section in the homepage
 - [MUSCLE](http://www.drive5.com/muscle/muscle.html) : Multiple sequence comparison by log-expectation
 - [PhyML](http://www.atgc-montpellier.fr/phyml/usersguide.php?type=command): Generate phylogenetic trees by maximum likelihood method
 - [TreeDyn](http://www.treedyn.org/): Visualization of phylogenetic trees
+
+
+## References
+
+1. Dereeper A., Audic S., Claverie J.M., Blanc G. BLAST-EXPLORER helps you building datasets for phylogenetic analysis. BMC Evol Biol. 2010 Jan 12;10:8. (PubMed)
+2. Dereeper A.*, Guignon V.*, Blanc G., Audic S., Buffet S., Chevenet F., Dufayard J.F., Guindon S., Lefort V., Lescot M., Claverie J.M., Gascuel O. Phylogeny.fr: robust phylogenetic analysis for the non-specialist. Nucleic Acids Res. 2008 Jul 1;36(Web Server issue):W465-9. Epub 2008 Apr 19. (PubMed) *: joint first authors
+3. Edgar RC. MUSCLE: multiple sequence alignment with high accuracy and high throughput. Nucleic Acids Res. 2004, Mar 19;32(5):1792-7. (PubMed)
+4. Castresana J. Selection of conserved blocks from multiple alignments for their use in phylogenetic analysis. Mol Biol Evol. 2000, Apr;17(4):540-52. (PubMed)
+5. Guindon S., Gascuel O. A simple, fast, and accurate algorithm to estimate large phylogenies by maximum likelihood. Syst Biol. 2003, Oct;52(5):696-704. (PubMed)
+6. Anisimova M., Gascuel O. Approximate likelihood ratio test for branchs: A fast, accurate and powerful alternative. Syst Biol. 2006, Aug;55(4):539-52. (PubMed)
+7. Chevenet F., Brun C., Banuls AL., Jacq B., Chisten R. TreeDyn: towards dynamic graphics and annotations for analyses of trees. BMC Bioinformatics. 2006, Oct 10;7:439. (PubMed)

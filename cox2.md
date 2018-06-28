@@ -36,8 +36,22 @@ YMLPPLFLEPGDLRLLDVDNRLVLPVEAPVRMMITSQDVLHSWAVPTLGLKTDAIPGRLN
 QTTFTATRPGVYYGQCSEICGANHSFMPIVLELIPLKIFEMGPVFTL
 ```
 
-Results
+[Results](http://www.phylogeny.fr/advanced.cgi?workflow_id=6a33d4bbea6aaa1df888e81c7e4ab407&tab_index=last)
 
 ```
+                                                                                                 --------0.01------
+ 
+       +----------sp_P26456_COX2_GORGO_Cytochrome_c_oxidase_subunit_2_OS=Gorilla_g
+       |
+ +-----+
+ |     |                      +-------------------------sp_P00403_COX2_HUMAN_Cytochrome_c_oxidase_subunit_2_OS=Homo_sapi
+ |     |                      |
+ |     +----------------------+            +--------sp_P26457_COX2_PANPA_Cytochrome_c_oxidase_subunit_2_OS=Pan_panis
+ |                            |            |
+ |                            +------------+
+ |                                         +sp_P50690_COX2_PANTR_Cytochrome_c_oxidase_subunit_2_OS=Pan_trogl
+ |
+ |
+ +------------------------------------------------------sp_Q37605_COX2_PONPY_Cytochrome_c_oxidase_subunit_2_OS=Pongo_pyg
 
 ```
