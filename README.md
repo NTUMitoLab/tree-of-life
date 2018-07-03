@@ -14,7 +14,6 @@
 8. Pongo abelii (Sumatran orangutan)
 
 We choose 1, 2, 3, 5, and 6 since the data are of better qualities
-Others are extinct.
 
 ## Analyzing ribosomal RNA sequences (epic fail!)
 
